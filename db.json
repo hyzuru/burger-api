@@ -3,36 +3,330 @@
     {
       "id":0,
       "name": "Tribute Burger",
-      "restaurant": "Honest Burgers",
-      "web": "www.honestburgers.co.uk",
-      "description": "A mouth-watering honest beef burger",
-      "ingredients": ["beef","american cheese", "burger sauce", "french mustard"],
+      "restaurant": "Huddle",
+      "web": "www.instagram.com/huddle.nz",
+      "description": "A crunchy and saucy fried-chicken burger",
+      "ingredients": ["fried chicken", "sauce", "coleslaw"],
+      "glutenfree": false,
+      "vegetarian": false,
+      "vegan": false,
       "addresses": [
         {
           "addressid":"0",
-          "number":"75",
-          "line1":"Venn Street",
-          "line2":"Clapham",
-          "postcode":"SW4 0BD",
-          "country":"United Kingdom"
+          "number":"261",
+          "line1":"Morrin Road",
+          "line2":"St Johns",
+          "city": "Auckland",
+          "postcode":"1072",
+          "country":"New Zealand"
+        }
+      ]
+    },
+    {
+      "id":1,
+      "name": "Seoul Beef Burger",
+      "restaurant": "Biskit Cafe",
+      "web": "https://biskit.co.nz/",
+      "description": "A mouth-watering beef burger with a Korean twist",
+      "ingredients": ["Korean Style Beef Patty","Brioche Bun", "Cheese", "Tomato", "Lettuce", "Caramelised Onion", "Garlic Aoli", "Ranch Fries"],
+      "glutenfree": false,
+      "vegetarian": false,
+      "vegan": false,
+      "addresses": [
+        {
+          "addressid":"1",
+          "number":"215",
+          "line1":"Parnell Road",
+          "line2":"Parnell",
+          "city": "Auckland",
+          "postcode":"1052",
+          "country":"New Zealand"
         }
       ]
     },
     {
       "id":2,
-      "name": "Tribute Burger",
-      "restaurant": "Honest Burgers",
-      "web": "www.honestburgers.co.uk",
-      "description": "A mouth-watering honest beef burger",
-      "ingredients": ["beef","american cheese", "burger sauce", "french mustard"],
+      "name": "The 5 Star Man",
+      "restaurant": "The Chosen Bun",
+      "web": "https://www.thechosenbun.co.nz/",
+      "description": "",
+      "ingredients": ["Two 150g smash beef patties", "buttermilk fried onion rings", "cheddar & swiss cheese", "smokey bbq", "aioli"],
+      "glutenfree": true,
+      "vegetarian": false,
+      "vegan": false,
       "addresses": [
         {
-          "addressid":"0",
-          "number":"75",
-          "line1":"Venn Street",
-          "line2":"Clapham",
-          "postcode":"SW4 0BD",
-          "country":"United Kingdom"
+          "addressid":"1",
+          "number":"3/40",
+          "line1":"Stonefields Ave",
+          "line2":"Stonefields",
+          "city": "Auckland",
+          "postcode":"1052",
+          "country":"New Zealand"
+        }
+      ]
+    },
+    {
+      "id":3,
+      "name": "The Big Smoke",
+      "restaurant": "The Chosen Bun",
+      "web": "https://www.thechosenbun.co.nz/",
+      "description": "",
+      "ingredients": ["150g smash beef patty", "smoke & fire peanut butter", "pickled carrot", "crispy noods", "aioli"],
+      "glutenfree": true,
+      "vegetarian": false,
+      "vegan": false,
+      "addresses": [
+        {
+          "addressid":"1",
+          "number":"3/40",
+          "line1":"Stonefields Ave",
+          "line2":"Stonefields",
+          "city": "Auckland",
+          "postcode":"1052",
+          "country":"New Zealand"
+        }
+      ]
+    },
+    {
+      "id":4,
+      "name": "The Chosen Bun",
+      "restaurant": "The Chosen Bun",
+      "web": "https://www.thechosenbun.co.nz/",
+      "description": "The O.G. burger at The Chosen Bun",
+      "ingredients": ["150g smash beef patty", "american cheddar", "bread & butter pickles", "dijon", "ketchup"],
+      "glutenfree": true,
+      "vegetarian": false,
+      "vegan": false,
+      "addresses": [
+        {
+          "addressid":"1",
+          "number":"3/40",
+          "line1":"Stonefields Ave",
+          "line2":"Stonefields",
+          "city": "Auckland",
+          "postcode":"1052",
+          "country":"New Zealand"
+        }
+      ]
+    },
+    {
+      "id":5,
+      "name": "The Golden Phoenix",
+      "restaurant": "The Chosen Bun",
+      "web": "https://www.thechosenbun.co.nz/",
+      "description": "",
+      "ingredients": ["150g buttermilk fried chicken (GF)", "honey sriracha", "sesame", "asian slaw", "kewpie"],
+      "glutenfree": true,
+      "vegetarian": false,
+      "vegan": false,
+      "addresses": [
+        {
+          "addressid":"1",
+          "number":"3/40",
+          "line1":"Stonefields Ave",
+          "line2":"Stonefields",
+          "city": "Auckland",
+          "postcode":"1052",
+          "country":"New Zealand"
+        }
+      ]
+    },
+    {
+      "id":6,
+      "name": "The Guac Star",
+      "restaurant": "The Chosen Bun",
+      "web": "https://www.thechosenbun.co.nz/",
+      "description": "",
+      "ingredients": ["150g smash beef patty", "jalapeno cheese", "guac", "sour cream", "chilli jam", "tortilla chips"],
+      "glutenfree": true,
+      "vegetarian": false,
+      "vegan": false,
+      "addresses": [
+        {
+          "addressid":"1",
+          "number":"3/40",
+          "line1":"Stonefields Ave",
+          "line2":"Stonefields",
+          "city": "Auckland",
+          "postcode":"1052",
+          "country":"New Zealand"
+        }
+      ]
+    },
+    {
+      "id":7,
+      "name": "The Holey One",
+      "restaurant": "The Chosen Bun",
+      "web": "https://www.thechosenbun.co.nz/",
+      "description": "",
+      "ingredients": ["150g smash beef patty", "swiss", "sautéed mushrooms", "house made onion jam", "aioli"],
+      "glutenfree": true,
+      "vegetarian": false,
+      "vegan": false,
+      "addresses": [
+        {
+          "addressid":"1",
+          "number":"3/40",
+          "line1":"Stonefields Ave",
+          "line2":"Stonefields",
+          "city": "Auckland",
+          "postcode":"1052",
+          "country":"New Zealand"
+        }
+      ]
+    },
+    {
+      "id":8,
+      "name": "The Hot Chick",
+      "restaurant": "The Chosen Bun",
+      "web": "https://www.thechosenbun.co.nz/",
+      "description": "",
+      "ingredients": ["150g buttermilk fried chicken (GF)", "smokey hot sauce", "swiss cheese", "pickles", "slaw", "aioli"],
+      "glutenfree": true,
+      "vegetarian": false,
+      "vegan": false,
+      "addresses": [
+        {
+          "addressid":"1",
+          "number":"3/40",
+          "line1":"Stonefields Ave",
+          "line2":"Stonefields",
+          "city": "Auckland",
+          "postcode":"1052",
+          "country":"New Zealand"
+        }
+      ]
+    },
+    {
+      "id":9,
+      "name": "The Little Beef",
+      "restaurant": "The Chosen Bun",
+      "web": "https://www.thechosenbun.co.nz/",
+      "description": "Kids beef burger",
+      "ingredients": ["Kids beef, 75g smash patty", "american cheddar", "ketchup"],
+      "glutenfree": true,
+      "vegetarian": false,
+      "vegan": false,
+      "addresses": [
+        {
+          "addressid":"1",
+          "number":"3/40",
+          "line1":"Stonefields Ave",
+          "line2":"Stonefields",
+          "city": "Auckland",
+          "postcode":"1052",
+          "country":"New Zealand"
+        }
+      ]
+    },
+    {
+      "id":10,
+      "name": "The Little C",
+      "restaurant": "The Chosen Bun",
+      "web": "https://www.thechosenbun.co.nz/",
+      "description": "Kids chicken burger",
+      "ingredients": ["75g buttermilk fried chicken (gf)", "aioli", "tomato sauce"],
+      "glutenfree": true,
+      "vegetarian": false,
+      "vegan": false,
+      "addresses": [
+        {
+          "addressid":"1",
+          "number":"3/40",
+          "line1":"Stonefields Ave",
+          "line2":"Stonefields",
+          "city": "Auckland",
+          "postcode":"1052",
+          "country":"New Zealand"
+        }
+      ]
+    },
+    {
+      "id":11,
+      "name": "The O'fish'ial",
+      "restaurant": "The Chosen Bun",
+      "web": "https://www.thechosenbun.co.nz/",
+      "description": "",
+      "ingredients": ["Wild caught battered fish (GF)", "slaw", "red onion", "house made tartare"],
+      "glutenfree": true,
+      "vegetarian": false,
+      "vegan": false,
+      "addresses": [
+        {
+          "addressid":"1",
+          "number":"3/40",
+          "line1":"Stonefields Ave",
+          "line2":"Stonefields",
+          "city": "Auckland",
+          "postcode":"1052",
+          "country":"New Zealand"
+        }
+      ]
+    },
+    {
+      "id":12,
+      "name": "The Plain Chick",
+      "restaurant": "The Chosen Bun",
+      "web": "https://www.thechosenbun.co.nz/",
+      "description": "",
+      "ingredients": ["150g buttermilk fried chicken (gf)", "swiss cheese", "pickles", "slaw", "aioli"],
+      "glutenfree": true,
+      "vegetarian": false,
+      "vegan": false,
+      "addresses": [
+        {
+          "addressid":"1",
+          "number":"3/40",
+          "line1":"Stonefields Ave",
+          "line2":"Stonefields",
+          "city": "Auckland",
+          "postcode":"1052",
+          "country":"New Zealand"
+        }
+      ]
+    },
+    {
+      "id":13,
+      "name": "The Righteous One",
+      "restaurant": "The Chosen Bun",
+      "web": "https://www.thechosenbun.co.nz/",
+      "description": "",
+      "ingredients": ["grilled halloumi", "portobello", "buttermilk fried onion rings", "sundried tomato pesto", "aioli"],
+      "glutenfree": true,
+      "vegetarian": true,
+      "vegan": false,
+      "addresses": [
+        {
+          "addressid":"1",
+          "number":"3/40",
+          "line1":"Stonefields Ave",
+          "line2":"Stonefields",
+          "city": "Auckland",
+          "postcode":"1052",
+          "country":"New Zealand"
+        }
+      ]
+    },
+    {
+      "id":14,
+      "name": "Mushroom Mozzarella Burger",
+      "restaurant": "The Great Burger",
+      "web": "http://www.the-great-burger.com/",
+      "description": "Cheesy mushroom burger that melts in your mouth",
+      "ingredients": ["mushrooms", "mozarella", "lettuce", "tomato"],
+      "glutenfree": false,
+      "vegetarian": true,
+      "vegan": false,
+      "addresses": [
+        {
+          "addressid":"1",
+          "number":"",
+          "line1":"6-Chome 12-5 Jingumae",
+          "line2":"Shibuya",
+          "city": "Tokyo",
+          "postcode":"150-0001",
+          "country":"Japan"
         }
       ]
     }
