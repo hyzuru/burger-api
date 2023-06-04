@@ -6,7 +6,7 @@ I am collating a list of nice burgers, mostly in Auckland but some from other pl
 
 I will be starting the list with some burgers in Auckland. If you have any burger recommendations feel free to contribute to my project with pull requests or send me a message!
 
-While still incomplete, the API is available for use [here is the RapidAPI link](https://rapidapi.com/asatenshi/api/burger-rec-api)
+While still incomplete, the API is available for use [here at RapidAPI.](https://rapidapi.com/asatenshi/api/burger-rec-api)
 
 # getting started
 
