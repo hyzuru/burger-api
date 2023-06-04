@@ -2,9 +2,11 @@
 
 This is my burger recommendation API.
 
-I am collating a list of gourmet burgers I've eaten and would recommend.
+I am collating a list of nice burgers, mostly in Auckland but some from other places I've been like Tokyo.
 
-I will be starting the list with some burgers in Auckland, maybe Tokyo. If you have any burger recommendations feel free to contribute to my project with pull requests or send me a message!
+I will be starting the list with some burgers in Auckland. If you have any burger recommendations feel free to contribute to my project with pull requests or send me a message!
+
+While still incomplete, the API is available for use [here is the RapidAPI link](https://rapidapi.com/asatenshi/api/burger-rec-api)
 
 # getting started
 
